@@ -24,7 +24,6 @@ sudo apt-get install jq curl
 Verzia Ookla Speedtest pre príkazový riadok (ďalšie informácie nájdete na webe [speedtest.net](https://www.speedtest.net/apps/cli))
 
 ```
-sudo apt-get install curl
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 sudo apt-get install speedtest
 
@@ -62,8 +61,8 @@ __-d__ - získanie údajov z terminálu (dishy) (potrebný nainštalovaný gRPCu
 __-h__ - zobrazenie pomocníka
  
 ## Nastavenie pravidelného spúšťania (CRON)
+Zápis, ktorý spustí meranie každých 15 minút. 
 ```
 crontab -e
 */15 * * * * ~/path/to/starlink_speedtest_stats.sh -k 'APIKEY' -s -d
 ```
-
