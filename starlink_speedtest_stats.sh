@@ -42,8 +42,8 @@ then
 fi
 echo "API Key: $apikey"
 
-api_send_url="http://starlink-fans-speedtest.local/api/send_result/${apikey}"
-api_pingservers_url="http://starlink-fans-speedtest.local/api/ping_servers/${apikey}"
+api_send_url="https://speedtest.starlinkfans.eu/api/send_result/${apikey}"
+api_pingservers_url="https://speedtest.starlinkfans.eu/api/ping_servers/${apikey}"
 
 # Pinging servers
 echo "Get ping servers from ${api_pingservers_url}";
