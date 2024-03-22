@@ -103,6 +103,6 @@ else
 fi
 
 # Create JSON and send
-jsndata='{"api_key":"'$apikey'","json_ip":'$json_ip',"json_ping":'$json_ping',"json_speedtest":'$json_speedtest',"json_dishy":'$json_dishy',"sss_client_version":'$version'}'
+jsndata='{"api_key":"'$apikey'","json_ip":'$json_ip',"json_ping":'$json_ping',"speedtest":'$speedtest',"json_speedtest":'$json_speedtest',"dishy":'$dishy',"json_dishy":'$json_dishy',"sss_client_version":'$version'}'
 
 curl -d "$jsndata" -H "Content-Type: application/json" -X POST $api_send_url
