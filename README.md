@@ -7,7 +7,7 @@ Jeden rýchlostný test može spotrebovať ať 500MB dát, čo pri 15 minútovom
 
 ## Čo potrebujem?
 - Pripojenie cez satelitný internet Starlink (náš server automaticky overuje, či bol test vykonaný z IP adresy Starlinku)
-- Zariadenie (zatiaľ) s operačným systémom Linux, pripojené v sieti káblom (bezdrôtové testy môžu štatistiky výrazne skresliť)
+- Zariadenie (zatiaľ) s operačným systémom Linux, pripojené v sieti káblom s použitím 1Gbps switcha alebo routrea (100Mbps zariadenia a bezdrôtové testy môžu štatistiky výrazne skresliť)
 - Nainštalovať potrebný softvér a stihanuť skript
 - Zaregistrovať si účet zdarma na [speedtest.starlinkfans.eu](https://speedtest.starlinkfans.eu/)
  
